@@ -1,0 +1,15 @@
+FILE="$1"
+
+function remove_compilation_files() {
+  rm -f ./*.o
+  rm -f "$FILE"
+}
+
+remove_compilation_files
+gcc "$FILE".c -o "$FILE" -Wall 2>/dev/null
+if [ $? == 0 ]; then
+  ./"$FILE"
+else
+  echo "COMPILATION ERROR"
+fi
+remove_compilation_files
