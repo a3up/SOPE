@@ -1,3 +1,0 @@
-for i in {01..14}; do
-  mkdir aula$i;
-done
