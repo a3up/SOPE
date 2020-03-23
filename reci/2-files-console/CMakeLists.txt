@@ -1,0 +1,1 @@
+add_executable(password p1.c p2b.c p5a.c p5b.c p6.c password.c copy.c students.c)

@@ -1,0 +1,1 @@
+add_executable(a.out 1-pid.c 2-faster.c 3-scheduling.c 4-hello-world.c 5-friends.c 6-zombie.c 7-exec.c 8-father-and-son.c)
