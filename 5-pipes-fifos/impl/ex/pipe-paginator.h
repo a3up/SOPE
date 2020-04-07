@@ -11,7 +11,7 @@ int pipePaginator(int argc, char **argv) {
     FILE *fpin, *fpout;
     // Handle argument
     if (argc == 1) {
-        argv[1] = "../files/lipsum.txt";
+        argv[1] = "../file/lipsum.txt";
     } else if (argc > 2) {
         printf("usage: %s filename\n", argv[0]);
         exit(1);

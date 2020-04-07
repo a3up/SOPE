@@ -7,7 +7,7 @@
 int main(void) {
     char line[MAXLINE];
     FILE *fpin;
-    if ((fpin = popen("../files/pipe-to-lower.txt", "r")) == NULL) {
+    if ((fpin = popen("../file/pipe-to-lower.txt", "r")) == NULL) {
         printf("popen error");
         exit(1);
     }

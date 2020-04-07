@@ -1,7 +1,7 @@
 #include <string.h>
 
-#include "examples/pipe-simple-sum.h"
-#include "examples/pipe-paginator.h"
+#include "ex/pipe-simple-sum.h"
+#include "ex/pipe-paginator.h"
 
 char **removeElement(char **v, unsigned n) {
     char **item = v;
@@ -16,7 +16,7 @@ char **removeElement(char **v, unsigned n) {
 
 int main(int argc, char **argv, char **envp) {
     if (argc == 1) {
-        argv[1] = "2";
+        argv[1] = "1";
     } else if (argc != 2) {
         printf("usage: %s option\n", argv[0]);
         exit(1);
