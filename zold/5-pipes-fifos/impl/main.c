@@ -1,7 +1,7 @@
 #include <string.h>
 
-#include "ex/pipe-simple-sum.h"
-#include "ex/pipe-paginator.h"
+#include "smpl/pipe-simple-sum.h"
+#include "smpl/pipe-paginator.h"
 
 char **removeElement(char **v, unsigned n) {
     char **item = v;
